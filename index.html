@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Interaction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    /* Button styles */
+    .btn {
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #3498db;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #2980b9;
+    }
+
+    /* Box styles */
+    .box {
+      margin-top: 20px;
+      width: 150px;
+      height: 150px;
+      background-color: #e74c3c;
+      border-radius: 12px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      cursor: pointer;
+    }
+
+    .box:active {
+      transform: scale(1.2);
+      background-color: #2ecc71;
+    }
+  </style>
+</head>
+<body>
+  <h1>Simple CSS Interaction</h1>
+  <button class="btn">Hover Me</button>
+  <div class="box"></div>
+</body>
+</html>
